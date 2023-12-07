@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+    padding: 30px 20px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+nav {
+    position: fixed;
+    top: 5px;
+    right: 16px;
+}
+
+ul > li {
+    display: inline;
+    margin-left: 5px;
+}
+
+section {
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+h1 {
+    color:rgba(10, 10, 10, 0.801);
+}
+
+#article-list {
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 5px 3px 28px 8px rgba(0, 0, 0, 0.089), 0 16px 20px 0 rgba(0, 0, 0, 0.123);
+}
+
+.article {
+    margin-top: 50px;
+    border-bottom: 1.5px solid rgba(110, 110, 110, 0.986);
+}
+
+@media(max-Width: 1370px) {
+    footer {
+        position: static;
+        bottom: 0;
+        background-color: #5264C7;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+    }
+    
+    h5 {
+        padding-top: 15px;
+        color: aliceblue;;
+    }
+}
+
+@media(min-Width: 1371px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        background-color: #5264C7;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+    }
+    
+    h5 {
+        margin-top: 15px;
+        color: aliceblue;;
+    }
+}
+
+#about-content {
+    padding: 20px 10px 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    margin-bottom: 30px;
+}
+
+#about-title {
+    padding-bottom: 10px;
+    text-align: center;
+}

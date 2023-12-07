@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300&display=swap');
+
+/* context light */
+.light .navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.light ul {
+    padding-left: 0;
+}
+
+.light ul > li {
+    display: inline;
+}
+
+.light ul > li > a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.568)
+}
+
+.light ul > li > a:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+/* context dark */
+.dark .navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.885);
+}
+
+.dark ul {
+    padding-left: 0;
+}
+
+.dark ul > li {
+    display: inline;
+}
+
+.dark ul > li > a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.829)
+}
+
+.dark ul > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.container {
+    position: relative;
+    padding-top: 50px;
+}
+
+.card {
+    width: 30%;
+    background-color: #fff;
+    margin: 50px auto;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.062);
+    padding: 20px;
+}
+
+.card-header {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.300);
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.card-header > h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.3rem;
+    color: rgba(0, 0, 0, 0.253);
+    margin-bottom: 5px;
+}
+
+.card-header > span {
+    color:rgba(0, 0, 0, 0.705);
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+input[type='checkbox'] {
+    width: 22px;
+    height: 22px;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+    border-radius: 3px;
+}
+
+label {
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 1.1rem;
+}
+
+.button {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(55, 129, 241, 0.877);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button:active {
+    background-color: rgba(185, 40, 40, 0.877);
+}
+
+/* CSS Tugas 11 */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    padding: 5px 15px 5px 5px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.300);
+}
+
+.tableAction {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.rataKanan {
+    text-align: right;
+}
+
+.errorMessage {
+    display: block;
+    width: 100%;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.errorFeedback {
+    color: red;
+}
+
+.mb-1 {
+    margin-bottom: 15px;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    padding: 10px;
+}
+
+.formLabel {
+    margin-left: 0;
+}
+
+.formInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='submit'] {
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-theme {
+    margin-top: 50px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.content {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.tbl-14 {
+    width: 100%;
+}
+
+.footerForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-kembali {
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.885);
+    border-radius: 3px;
+    padding: 3px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.885);
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.btn-kembali:hover {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.btn-addNew {
+    cursor: pointer;
+}
+
+/* Import dari antd */
+.site-layout .site-layout-background {
+    background: #fff;
+  }
+
+.btn-edit {
+    color: #fff;
+    border-color: rgb(173, 81, 5);
+    background-color: rgb(173, 81, 5);
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.menu-navbar {
+    position: 'fixed';
+    z-index: 1;
+    width: '100%';
+    display: 'flex';
+    justify-content: 'space-between'; 
+}
+
+.thema {
+    position: absolute;
+    right: 0;
+}

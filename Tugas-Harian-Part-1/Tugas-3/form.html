@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+    <header>
+      <h1>Registrasi Akun Baru !</h1>
+      <h4>Isilah form dibawah ini</h4>
+    </header>
+    <form method="POST">
+			<div>
+      	<label for="fname">First name:</label><br /><br />
+      	<input type="text" id="fname" name="fname" value="" />
+			</div>
+			<br />
+			<div>
+      	<label for="lname">Last name:</label><br /><br />
+      	<input type="text" id="lname" name="lname" value="" />
+			</div>
+			<br />
+			<div>
+      	<label>Gender:</label><br /><br />
+      	<input type="radio" id="male" name="gender" value="Male" />
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="Female" />
+				<label for="female">Female</label>
+				<input type="radio" id="other" name="gender" value="Other" />
+				<label for="other">Other</label>
+			</div>
+			<br />
+			<div>
+      	<label for="negara">Nationality:</label><br /><br />
+				<select id="negara" name="negara">
+					<option value="Indonesia">Indonesia</option>
+					<option value="Singapore">Singapore</option>
+					<option value="Malaysia">Malaysia</option>
+				</select>
+			</div>
+			<br />
+			<div>
+      	<label for="study">Sedang Fokus Belajar:</label><br /><br />
+				<select id="study" name="study">
+					<option value="Reactjs">Reactjs</option>
+					<option value="html">html</option>
+					<option value="git">git</option>
+				</select>
+			</div>
+			<br />
+			<div>
+      	<label>Language Spoken:</label><br /><br />
+				<input type="checkbox" id="male" name="male" value="Male" />
+  			<label for="male">Male</label>
+				<input type="checkbox" id="female" name="female" value="Female" />
+  			<label for="female">Female</label>
+				<input type="checkbox" id="cother" name="cother" value="Other" />
+  			<label for="cother">Other</label>
+			</div>
+			<br />
+			<div>
+      	<label for="description">Deskripsi Diri Saya:</label><br /><br />
+				<textarea id="description" name="desccription"></textarea>
+			</div>
+			<br />
+			<input type="submit" name="register" id="register" value="register"/>
+    </form>
+  </body>
+</html>
